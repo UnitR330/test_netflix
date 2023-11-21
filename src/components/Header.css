@@ -1,0 +1,106 @@
+
+.header {
+    display: flex;
+    padding: 20px;
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    gap: 100px;
+    overflow: visible;
+  }
+  
+  .header__left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__logo {
+    max-height: 35px;  
+  }
+  
+  .header__center {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+}
+
+.header__languageSelector {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .header__right {
+    display: flex;
+    align-items: center;
+    width: 100px;
+  }
+  
+  .header__signInButton {
+    background-color: #e50914;  
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+/*
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .header__logo {
+    background-color: #111;
+    width: 180px;
+    object-fit: contain;
+    margin-top: 20px;
+  }
+  
+  .header__nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__navItem {
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .header__navItem:last-child {
+    margin-right: 0;
+  }
+  
+  .header__search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__searchInput {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .header__searchButton {
+    background-color: #e50914;  
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  */
+  /* Add more styles as needed for user profile, authentication, etc. */
+  

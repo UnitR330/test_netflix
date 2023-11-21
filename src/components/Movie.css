@@ -1,0 +1,19 @@
+/* src/components/Movie.css */
+.movie {
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+  }
+  
+  .movie:hover {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+  
+  .movie img {
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

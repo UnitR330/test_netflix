@@ -1,0 +1,22 @@
+ 
+
+.searchBar {
+    display: flex;
+    margin: 20px 0;
+  }
+  
+  input {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #e50914;  
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+   
+  

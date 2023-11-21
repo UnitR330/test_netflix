@@ -1,0 +1,15 @@
+/* Home.css */
+
+.home {
+    padding: 20px;
+  }
+  
+  .home__row {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+   
+   
+   
