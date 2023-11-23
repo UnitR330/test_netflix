@@ -33,13 +33,12 @@ function Header() {
       </div>
 
       <div className="header__right">
-        {/* Sign-In Button */}
+         
         <button className="header__signInButton" onClick={openModal}>
           Sign In
         </button>
       </div>
-
-      {/* Registration Modal */}
+       
       {isModalOpen && <RegistrationModal closeModal={closeModal} />}
     </div>
   );

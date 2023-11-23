@@ -1,0 +1,51 @@
+/* TvSet.css */
+
+.tvSet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .tvSet__textArea {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .tvSet__textAreaP h1 {
+    margin: 0;
+  }
+  
+  .tvSet_display {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tvSet_displayP {
+    max-width: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+.tvSet_displayP img {
+    width: 60%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.tvSet__imageArea {
+}
+
+.tvSet__imageArea img {
+    top: 0;
+      position: absolute;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    z-index: -1;
+  }
+  

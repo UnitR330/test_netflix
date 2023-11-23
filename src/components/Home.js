@@ -1,5 +1,4 @@
 // Home.js
-// Home.js
 
 import React from 'react';
 import MovieList from './MovieList';
@@ -80,6 +79,8 @@ function Home() {
       <h2 className="home__title">Featured Movies</h2>
       <MovieList movies={featuredMovies} />
       {/* Add more sections or components as needed */}
+    
+
     </div>
   );
 }

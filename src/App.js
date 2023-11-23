@@ -3,6 +3,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Home from './components/Home';
+import TvSet from './components/TvSet';
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       
       {/* Home Section */}
       < Home />
+      < TvSet />
       
       {/* More Sections (Add as needed) */}
       <div className="app__section">
