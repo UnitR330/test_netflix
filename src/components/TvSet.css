@@ -24,7 +24,7 @@
   }
   
   .tvSet_displayP {
-    max-width: 300px;
+    max-width: 450px;
     position: relative;
     z-index: 1;
 }
@@ -42,9 +42,9 @@
     top: 0;
       position: absolute;
     width: 100%;
-    max-width: 150px;
+    max-width: 220px;
     height: auto;
-    margin: 10px;
+    margin: 30px;
     border-radius: 5px;
     z-index: -1;
   }

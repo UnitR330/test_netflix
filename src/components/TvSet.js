@@ -31,7 +31,9 @@ function TvSet() {
     <div className="tvSet">
       <div className="tvSet__textArea">
         <div className="tvSet__textAreaP">
-         <h1>Look on your TV</h1>
+         <h2>Look on your TV</h2>
+         <h4>It is simple like never be before: choose, play, look!</h4>
+         <h5>Your favorite shows, movies, live streams and much more from one provider! </h5>
       </div>
     </div>
 
